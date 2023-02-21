@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css';
+import profileImg from '../../assets/profileImg.jpeg'
 
 
 function About() {
@@ -8,10 +9,12 @@ function About() {
         <section id="about" className="App-about">
           <div className="App-about-left">
             <h2>About Me</h2>
-            <p>Insert some text here about yourself, your skills, and your experience. This can be a brief overview of your background or a more detailed description of your professional journey.</p>
+            <p>Hi, I'm Sebastian Flinck Lindström, a Software Engineer with a passion for developing robust and scalable system that power seamless user experiences. I'm a lifelong learner and enjoy exploring new technologies to stay up-to-date with the ever-changing industry.<br/><br/>
+  When I'm not coding, you can find me climbing, gaming, and reading up on the latest tech trends. I believe in taking a holistic approach to work and life, and strive to find balance in everything I do.<br/><br/>
+  If you're interested in working together or just want to chat, feel free to reach out via the contact form below. I'd love to connect and hear about you and what you do.</p>
           </div>
           <div className="App-about-right">
-            <img src="insert image source here" alt="Insert image description here" />
+            <img src={profileImg} alt="Insert image description here" className="profile-pic"/>
           </div>
         </section>
       </div>
