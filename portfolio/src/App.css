@@ -2,45 +2,6 @@
   text-align: center;
 }
 
-.App-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  position: relative;
-  height: 90vh;
-  max-height: 800px;
-  background-color: #333;
-  color: white;
-}
-
-.App-header-left {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-}
-
-.App-header-middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.App-header-right {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
-.App-header-right a {
-  margin-left: 10px;
-  color: white;
-  text-decoration: none;
-}
-
-
-
 .About-section,
 .Projects-section,
 .Contact-section {
