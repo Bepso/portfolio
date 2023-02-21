@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import profileImg from '../../assets/profileImg.jpeg'
+import resume from '../../assets/Resume - Sebastian Flinck Lindström.pdf'
 
 
 function About() {
@@ -15,6 +16,9 @@ function About() {
           </div>
           <div className="App-about-right">
             <img src={profileImg} alt="Insert image description here" className="profile-pic"/>
+            <a href={resume} download className='download-button'>
+            Download Resume
+            </a>
           </div>
         </section>
       </div>
