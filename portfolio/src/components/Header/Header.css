@@ -34,4 +34,8 @@
     color: white;
     text-decoration: none;
   }
+
+  .App-header-right a:hover {
+    cursor: pointer;
+  }
   

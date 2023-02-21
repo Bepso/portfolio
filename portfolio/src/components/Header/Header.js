@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-scroll';
 
 function Header() {
   return (
@@ -12,9 +13,9 @@ function Header() {
         <p>I am a passionate Software Engineer with a keen interest in building robust and scalable applications. Take a look at my portfolio below to see some of my recent work.</p>
       </div>
       <div className="App-header-right">
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <Link to="about" spy={true} smooth={true} duration={500}>About</Link>
+        <Link to="projects" spy={true} smooth={true} duration={500}>Projects</Link>
+        <Link to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
       </div>
     </header>
   );
