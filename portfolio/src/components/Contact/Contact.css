@@ -1,0 +1,12 @@
+.App-contact-parent{
+    background-color: #333;
+}
+.App-contact {
+    margin: 0 auto;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #333;
+    color: white;
+  }

@@ -3,8 +3,7 @@
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
-    height: 90vh;
-    max-height: 800px;
+    height: 95vh;
     background-color: #333;
     color: white;
   }
@@ -36,6 +35,24 @@
   }
 
   .App-header-right a:hover {
+    cursor: pointer;
+  }
+
+  .scroll-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .scroll-button:hover {
     cursor: pointer;
   }
   
