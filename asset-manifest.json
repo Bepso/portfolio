@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.137e184b.css",
+    "main.js": "/portfolio/static/js/main.7bfacc34.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/spellcheck.png": "/portfolio/static/media/spellcheck.2212cbab5db93b8bf69d.png",
+    "static/media/Resume - Sebastian Flinck Lindström.pdf": "/portfolio/static/media/Resume - Sebastian Flinck Lindström.dd588dc422dd01a85151.pdf",
+    "static/media/profileImg.jpeg": "/portfolio/static/media/profileImg.626c09f92d956866f88b.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.137e184b.css.map": "/portfolio/static/css/main.137e184b.css.map",
+    "main.7bfacc34.js.map": "/portfolio/static/js/main.7bfacc34.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.137e184b.css",
+    "static/js/main.7bfacc34.js"
+  ]
+}
