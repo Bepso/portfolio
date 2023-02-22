@@ -3,11 +3,13 @@
 }
 
 .App-projects {
-    margin: 0 auto;
     display: inline-block;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    flex-wrap: wrap;
     background-color: #333;
     color: white;
   }
+
+  
+  
