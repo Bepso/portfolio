@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build", 
-    "deploy":"gh-pages -d build", 
+    "deploy": "gh-pages -d build -b main -t true -n 'Deploying to custom domain' -o '{\"homepage\": \"https://www.flincklindstrom.com\"}'",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
