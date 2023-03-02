@@ -3,7 +3,7 @@ import './Project.css';
 import githubLogo from '../../../assets/project-images/GitHub.png'
 
 function Project(props) {
-  const { title, description, githubLink, imageSrc } = props;
+  const { title, description, githubLink } = props;
   return (
     <a href={githubLink} target="_blank" rel="noopener noreferrer" className="project-link">
       <div className="project-container">
