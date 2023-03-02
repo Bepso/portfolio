@@ -1,3 +1,7 @@
+.project-link {
+    text-decoration: none;
+    color:white;
+  }
 .project-container {
     background-color: rgb(85, 85, 85);
     display: flex;

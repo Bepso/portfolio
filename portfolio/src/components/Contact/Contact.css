@@ -61,14 +61,4 @@
   }
   
   
-  .link-icon {
-    color: rgb(255, 255, 255);
-    font-size: 1.2rem;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  .link-icon:hover {
-    color: #000;
-  }
   
