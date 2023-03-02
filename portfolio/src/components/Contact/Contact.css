@@ -1,12 +1,74 @@
-.App-contact-parent{
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+.App-contact-parent {
     background-color: #333;
-}
-.App-contact {
-    margin: 0 auto;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
     padding: 50px;
-    background-color: #333;
     color: white;
   }
+  
+  .App-contact {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .App-contact h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .App-contact p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .App-contact ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App-contact li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .App-contact li svg {
+    margin-right: 0.5rem;
+  }
+  
+  
+  .App-contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .App-contact-icons a {
+    margin: 0 1rem;
+  }
+  
+  .App-contact-icons i {
+    color: #555;
+  }
+  
+  .App-contact-icons i:hover {
+    color: #0077b5;
+    transition: all 0.3s ease;
+  }
+  
+  
+  .link-icon {
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .link-icon:hover {
+    color: #000;
+  }
+  
