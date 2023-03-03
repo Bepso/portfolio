@@ -20,7 +20,7 @@ function Projects() {
         />
         <Project
           title="Portfolio"
-          description="This portfolio project was built using React, a popular JavaScript library for building user interfaces. The portfolio includes a homepage, an 'About Me' section, and a 'My Projects' section where users can learn about my coding projects and view my GitHub repositories. The website is responsive and optimized for viewing on both desktop and mobile devices. It also includes custom CSS styling for a visually appealing design. Through this project, I was able to showcase my web development skills and create a professional online presence for myself."
+          description="This portfolio project was built using React, a popular JavaScript library for building user interfaces. The portfolio includes a homepage, an 'About Me' section, and a 'My Projects' section where users can learn about my coding projects and view my GitHub repositories. Through this project, I was able to showcase my web development skills and create a professional online presence."
           githubLink="https://github.com/Bepso/portfolio"
         />
       </section>
