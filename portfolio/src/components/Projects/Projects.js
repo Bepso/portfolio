@@ -5,7 +5,7 @@ import './Projects.css';
 function Projects() {
   return (
     <div className='App-projects-parent'>
-      <h2>My Projects</h2>
+      <h2>Project</h2>
       <section id="projects"className="App-projects">
         
         <Project

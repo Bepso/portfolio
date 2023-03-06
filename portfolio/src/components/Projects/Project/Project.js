@@ -9,7 +9,7 @@ function Project(props) {
       <div className="project-container">
         <div className='project-description'>
           <h3>{title}</h3>
-          <p>{description}</p>
+          <p className='description-text'>{description}</p>
           <img src={githubLogo} alt="GitHub" className="github-logo"/>
         </div>
       </div>

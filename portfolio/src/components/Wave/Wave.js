@@ -1,10 +1,10 @@
 import React from 'react';
 
 function Wave(props) {
-  const { strokeColor, gradientColor } = props;
+  const { strokeColor, gradientColor, transformProp } = props;
   return (
     <div className="neon-wave">
-      <svg viewBox="10 0 80 100" preserveAspectRatio="none">
+      <svg viewBox="10 0 80 100" preserveAspectRatio="none" style={{ transform: `translateY(${transformProp})` }}>
         <defs>
           <linearGradient id="gradient">
             <stop offset="0%" stopColor={gradientColor} />
