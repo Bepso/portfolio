@@ -13,7 +13,7 @@ function Contact() {
         <p>Feel free to contact me using the information below:</p>
         <ul>
           <li><FontAwesomeIcon icon={faEnvelope} /> sebastianflincklindstrom@gmail.com</li>
-          <li><FontAwesomeIcon icon={faPhone} /> (+46) 70-753 80 12</li>
+          <li><FontAwesomeIcon icon={faPhone} /> --------(+46) 70-753 80 12 --------</li>
         </ul>
         <div className='App-contact-icons'>
         <a href="https://www.linkedin.com/in/sebastian-flinck-lindstr%C3%B6m-a28b80198">

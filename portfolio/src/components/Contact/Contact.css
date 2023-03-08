@@ -9,7 +9,7 @@
   .App-contact {
     max-width: 500px;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
   }
   
   .App-contact h2 {
@@ -31,7 +31,6 @@
   .App-contact li {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    display: flex;
     align-items: center;
   }
   
