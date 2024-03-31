@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="App-header">
       <div className="App-header-left">
-        <a>Sebastian Flinck Lindström</a>
+        <p>Sebastian Flinck Lindström</p>
       </div>
       <div className='App-header-middle'>
         <div className="App-header-middle-text">

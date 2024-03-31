@@ -1,8 +1,7 @@
 import React from 'react';
 import './About.css';
 import profileImg from '../../assets/profileImg.jpeg'
-import resume from '../../assets/Resume - Sebastian Flinck Lindström.pdf'
-
+import resume from '../../assets/Resume-Sebastian_Flinck_Lindstrom.pdf'
 
 function About() {
     return (
@@ -15,7 +14,7 @@ function About() {
   If you're interested in working together or just want to chat, feel free to reach out via the contact form below. I'd love to connect and hear about you and what you do.</p>
           </div>
           <div className="App-about-right">
-            <img src={profileImg} alt="Insert image description here" className="profile-pic"/>
+            <img src={profileImg} alt="" className="profile-pic"/>
             <a href={resume} download className='download-button'>
             Download Resume
             </a>
