@@ -15,12 +15,6 @@ function Header() {
           <Wave
           gradientColor="purple"
           transformProp="-20%"/>
-          <Wave
-          gradientColor="blue"
-          transformProp="-25%"/>
-          <Wave
-          gradientColor="pink"
-          transformProp="-30%"/>
           <p>I am a passionate Software Engineer with a keen interest in building robust and scalable applications.<br></br> Take a look at my portfolio below to see some of my recent work.</p>
         </div>
       </div>
